@@ -1,0 +1,100 @@
+body{
+	background-color: #171717;
+	color: white;
+	font-family:comic sans ms;/*debería ser alguna de Comic Sans*/
+	margin: 0 auto;
+	font-family: 'Handlee', cursive;
+}
+
+input{
+	font-family: 'Handlee', cursive;
+}
+
+.postcard{
+	background-color: white;
+	width: 500px;
+	height: 280px;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%); 
+	color: black;
+	padding: 10px;
+}
+
+.pc_header{
+	
+	overflow: hidden;
+}
+.pc_header img{
+	max-width: 100px;
+	float: right;
+	width: 50px;
+}
+
+.postcard h1{
+	margin: 0;
+	font-size: 32px;
+}
+
+.pc_body{
+	overflow: hidden;
+}
+
+.section_left{
+	float: left;
+	width: 50%;
+}
+
+.section_right{
+	float: right;
+	width: 45%;
+	margin-top: 20px;
+
+}
+
+.section_right input{
+	display: block;
+	border: none;
+	border-bottom: 1px solid gray;
+	width: 90%;
+	font-size: 14px;
+}
+
+.pc_footer{
+	
+	padding: 10px;
+	text-align: center;
+}
+
+.pc_footer input[type=submit]{
+	border: none;
+	border-bottom: 1px solid gray;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
